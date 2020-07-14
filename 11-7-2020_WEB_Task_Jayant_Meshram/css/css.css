@@ -1,0 +1,78 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,#008ADC 0%,#008ADC 15%,#0098e4 15%,#0098e4 70%,#211a23 70%,#211a23 100%)fixed no-repeat;
+    font-family: 'Segoe UI';
+    color: white ;
+    overflow: hidden;
+}
+.upper
+{
+    margin-bottom: 0px !important;
+    padding: 0%;
+    border: none;
+    width: 100%;
+    height: 70%;
+}
+.lower
+{
+    margin-left: 10px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 0%;
+    border: none;
+    width: 100%;
+    height: 30%;
+}
+.cimage_block
+{
+    background-image: url(../images/img.jpg);
+    background-size: contain;
+    top:25%;
+    left: 50%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:#0098e4 4px solid;
+    transform: translate(-50%,-50%);
+   
+}
+.info
+{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+.contacts
+{
+    text-align: center;
+    margin:10px;
+}
+.contacts i
+{
+    margin-top:50px;
+    color: rgb(47, 74, 105);
+}
+.contacts i:hover
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.checked
+{   
+    color: rgb(255, 187, 0);
+}
+#github:hover
+{
+    transition: 0.5;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}

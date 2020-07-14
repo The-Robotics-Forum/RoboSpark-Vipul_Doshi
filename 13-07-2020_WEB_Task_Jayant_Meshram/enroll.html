@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Enroll Form</title>
+        <link rel="stylesheet" href="css/enroll.css">
+        <link rel="icon" href="images/webicon.png">
+        <!--Fontawesome CDN Link-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <form method="POST" action="enroll.php" class="data_box" > 
+            <h1>Enter Data:</h1>
+            <div class="form_input">
+                <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                <input type="text" name="name" placeholder="Student Name">
+            </div>
+            <div class="form_input">
+                <i class="fa fa-book" aria-hidden="true"></i>
+                <input type="text" name="branch" placeholder="Branch">
+            </div>
+            <div class="form_input">
+                <i class="fa fa-percent" aria-hidden="true"></i>
+                <input type="text" name="cgpa" placeholder="CGPA">
+            </div>
+            <input type="submit" name="submit_data" value="Submit Data" class="submit-button">
+            <p class="search">Already a Student? <a href="student.html" target="_blank"><u> See Details Here</u></a></p>
+        </form>
+    </body>
+</html>
